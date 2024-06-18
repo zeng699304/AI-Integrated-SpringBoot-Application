@@ -1,4 +1,4 @@
-# AI-Integrated-SpringBoot-Application
+# **基于springboot的AI体验栈平台**
 ## 项目简介
 
 这个项目是一个集成了多种人工智能技术的全栈应用，基于Spring Boot框架实现了高扩展性的后端服务。主要功能包括：
