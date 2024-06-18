@@ -21,7 +21,7 @@ public class SampleNLP {
         AipNlp client = new AipNlp(APP_ID, API_KEY, SECRET_KEY);
 
         // 调用接口
-        String text = "百度是一家高科技公司";
+        String text = "百度是一家人工只能公司";
         JSONObject res = client.ecnet(text, null);
         System.out.println(res.toString(2));
 

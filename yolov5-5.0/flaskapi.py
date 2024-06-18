@@ -10,7 +10,7 @@ app = Flask(__name__)
 model = torch.hub.load('./', 'custom', 'yolov5s.pt', source='local')
 
 # 设置Spring Boot项目的文件保存路径
-springboot_files_path = "F:/IDEA/code/SSM/files"
+springboot_files_path = "../files"
 detect_dir_base = os.path.join(springboot_files_path, "detect")
 os.makedirs(detect_dir_base, exist_ok=True)
 
